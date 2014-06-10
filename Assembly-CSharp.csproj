@@ -46,9 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Camera\Follow.cs" />
+     <Compile Include="Assets\Scripts\Camera\TutLevel.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\KeyInput\KeyManager.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\LeapInput\LeapManager.cs" />
      <Compile Include="Assets\Scripts\Rotation\RotationListener.cs" />
+     <Compile Include="Assets\Scripts\TutScripts\FadeScripts\FadeScript.cs" />
+     <Compile Include="Assets\Scripts\TutScripts\FadeScripts\TextFade.cs" />
+     <Compile Include="Assets\Scripts\TutScripts\StartTutScript\StartExplain.cs" />
  <Reference Include="LeapCSharp.NET3.5">
  <HintPath>C:/Users/Dell/Google Drive/LeapMotionGameLab/Assets/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>

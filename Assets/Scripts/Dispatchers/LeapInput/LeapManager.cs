@@ -15,6 +15,11 @@ public class LeapManager : MonoBehaviour {
 		Frame current = controller.Frame();
 		float roll = current.Hands[0].PalmNormal.Roll;
 
+		if(current.Hands.Count == 1)
+		{
+			StartExplain.startTut = true;
+		}
+
 		if(roll > 0.3f & roll < 2.8)
 		{
 			if(LeapHandLeft != null)
