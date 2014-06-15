@@ -17,7 +17,10 @@ public class LeapManager : MonoBehaviour {
 
 		if(current.Hands.Count == 1)
 		{
-			StartExplain.startTut = true;
+			if(!StartExplain.explainSpawned)
+			{
+				StartExplain.startTut = true;
+			}
 		}
 
 		if(roll > 0.3f & roll < 2.8)

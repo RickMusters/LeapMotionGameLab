@@ -2,8 +2,10 @@
 using System.Collections;
 
 public class StartExplain : MonoBehaviour {
-
-	public static bool startTut = false;
+	
+	public static bool startTut = true;
+	public static bool explainSpawned = false;
+	public float sec;
 
 
 	void Update()
@@ -12,7 +14,10 @@ public class StartExplain : MonoBehaviour {
 		{
 			Destroy(GameObject.FindWithTag("Text"));
 			CreateExplainLevel();
+			explainSpawned = true;
 			startTut = false;
+			FadeScript.fadeBool = true;
+
 		}
 	}
 

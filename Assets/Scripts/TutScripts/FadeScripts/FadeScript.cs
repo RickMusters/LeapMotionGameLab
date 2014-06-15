@@ -3,8 +3,7 @@ using System.Collections;
 
 public class FadeScript : MonoBehaviour {
     public float fadeSpeed = 1.9f;
-    public GameObject tutExplain;
-    private bool handDetection = false;
+	public static bool fadeBool = false;
 
     void Awake()
     {
@@ -13,10 +12,10 @@ public class FadeScript : MonoBehaviour {
 
     void Update()
     {
-        if (handDetection)
-        {
-            StartTut();
-        }
+		if(fadeBool)
+		{
+			StartTut();
+		}
     }
 
     void FadeToClear()

@@ -22,12 +22,11 @@ public class RotationListener : MonoBehaviour {
 	}
 
 	void RotateLeft(){
-
-		transform.Rotate(new Vector3(0,0,1 *- speed));
+		transform.Rotate(0, 0, -1 * speed);
+        
 	}
 
 	void RotateRight(){
-
-		transform.Rotate(new Vector3(0,0,1 * speed));
+		transform.Rotate(0, 0, 1 * speed);
 	}
 }
