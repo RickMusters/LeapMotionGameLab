@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,16 +50,15 @@
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\KeyInput\KeyManager.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\LeapInput\LeapManager.cs" />
-     <Compile Include="Assets\Scripts\LevelMaker\GroundPlacing.cs" />
-     <Compile Include="Assets\Scripts\LevelMaker\ObstacelePlacing.cs" />
-     <Compile Include="Assets\Scripts\Movement\Runner.cs" />
+     <Compile Include="Assets\Scripts\Levelmaker\LevelPlacer.cs" />
+     <Compile Include="Assets\Scripts\Levelmaker\ObstaclePlacer.cs" />
+     <Compile Include="Assets\Scripts\Player\Runner.cs" />
      <Compile Include="Assets\Scripts\Rotation\RotationListener.cs" />
-     <Compile Include="Assets\Scripts\Rotation\RotationListener[Conflict].cs" />
      <Compile Include="Assets\Scripts\TutScripts\FadeScripts\FadeScript.cs" />
      <Compile Include="Assets\Scripts\TutScripts\FadeScripts\TextFade.cs" />
      <Compile Include="Assets\Scripts\TutScripts\StartTutScript\StartExplain.cs" />
  <Reference Include="LeapCSharp.NET3.5">
- <HintPath>C:/Users/Rick/Google Drive/LeapMotionGameLab/Assets/LeapCSharp.NET3.5.dll</HintPath>
+ <HintPath>C:/Users/Dell/Google Drive/LeapMotionGameLab/Assets/LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
