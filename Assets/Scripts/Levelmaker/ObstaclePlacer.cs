@@ -4,14 +4,25 @@ using System.Collections.Generic;
 
 public class ObstaclePlacer : MonoBehaviour
 {
+    public GameObject prefab;
 
-    public Transform player;
-    public Transform prefab;
-    public int numberOfObstacles;
-    public float recycleOffset;
-    public Vector2 startPosition;
+    private GameObject curChunk;
+    private GameObject prevChunk;
 
-    private Vector2 nextPosition;
-    private Transform[] obstacleArray;
+    void SpawnChunck()
+    {
+       /* prevChunk = curChunk;
+        curChunk = Instantiate(prefab);
+        curChunk.SetActive = false;
+
+        if (Vector3.Distance(curChunk, prevChunk) > 1)
+        {
+
+        }
+        else 
+        {
+            return;
+        }*/
+    }
 
 }

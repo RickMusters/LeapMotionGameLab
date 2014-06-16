@@ -23,6 +23,10 @@ public class KeyManager : MonoBehaviour {
 				keyPushedRight();
 			}
 		}
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.LoadLevel(0);
+        }
 
 	}
 }

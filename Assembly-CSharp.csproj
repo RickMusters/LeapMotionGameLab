@@ -46,12 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Background\Parallex.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraBounds.cs" />
      <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\KeyInput\KeyManager.cs" />
      <Compile Include="Assets\Scripts\Dispatchers\LeapInput\LeapManager.cs" />
+     <Compile Include="Assets\Scripts\Dispatchers\MouseInput\MouseInput.cs" />
      <Compile Include="Assets\Scripts\Levelmaker\LevelPlacer.cs" />
      <Compile Include="Assets\Scripts\Levelmaker\ObstaclePlacer.cs" />
+     <Compile Include="Assets\Scripts\Player\HitTest.cs" />
      <Compile Include="Assets\Scripts\Player\Runner.cs" />
      <Compile Include="Assets\Scripts\Rotation\RotationListener.cs" />
      <Compile Include="Assets\Scripts\TutScripts\FadeScripts\FadeScript.cs" />

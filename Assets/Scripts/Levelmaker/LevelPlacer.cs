@@ -28,6 +28,7 @@ public class LevelPlacer : MonoBehaviour {
 
     void Update()
     {
+
         if (objectQueue.Peek().localPosition.x + recycleOffset < Runner.distanceTraveled)
         {
             Recycle();
